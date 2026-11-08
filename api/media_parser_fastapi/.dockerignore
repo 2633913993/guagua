@@ -1,0 +1,15 @@
+.git/
+.venv/
+__pycache__/
+**/__pycache__/
+*.pyc
+**/*.pyc
+.pytest_cache/
+.env
+.env.*
+*.log
+*.log.*
+logs/
+tests/
+app/downloads.py
+app/media_app.py

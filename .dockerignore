@@ -1,0 +1,13 @@
+# 根目录构建只发送生产运行所需文件，避免上传日志、配置与历史输出。
+**
+!api/
+!api/media_parser_fastapi/
+!api/media_parser_fastapi/app/
+!api/media_parser_fastapi/app/**
+!api/media_parser_fastapi/requirements.txt
+!api/media_parser_fastapi/run.py
+!api/media_parser_fastapi/README.md
+**/__pycache__/
+**/*.pyc
+api/media_parser_fastapi/app/downloads.py
+api/media_parser_fastapi/app/media_app.py

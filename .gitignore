@@ -1,0 +1,46 @@
+.DS_Store
+.venv/
+__pycache__/
+*.pyc
+unpackage/
+downloads/
+*.part
+.env
+.env.*
+!.env.example
+!.env.local.example
+.pytest_cache/
+
+# 本机工具、日志、数据库和构建缓存
+.idea/
+.vscode/
+.hbuilderx/
+node_modules/
+*.log
+*.log.*
+logs/
+*.pid
+*.sock
+*.sqlite
+*.sqlite3
+*.db
+*.sql.gz
+*.pem
+*.key
+*.p12
+*.pfx
+
+# 历史备份与本地操作记录，不上传 Git
+/output/
+/交付进度.md
+/本地数据库查看.md
+
+# 已停用的公网下载方案，保留本地文件，当前服务使用微信云存储
+/api/media_download_fastapi/
+/api/media_parser_fastapi/Dockerfile.media
+/api/media_parser_fastapi/app/downloads.py
+/api/media_parser_fastapi/app/media_app.py
+/api/media_parser_fastapi/scripts/package_media.py
+/api/media_parser_fastapi/tests/test_downloads.py
+/api/media_parser_fastapi/代理下载部署说明.md
+/api/media_parser_fastapi/双服务配置步骤.md
